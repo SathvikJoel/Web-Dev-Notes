@@ -4,6 +4,8 @@
 
 > HTML = HyperText Markup Language
 >
+> HyperText means that text is linked between pages
+>
 > Use mdn documentation for more info on HTML
 > 
 > w3schools.com also has good tutorials
@@ -11,6 +13,8 @@
 > devdocs.io also has good tutorials
 
 ## HTML Quick Commands
+
+---
 
 ### Basic Tags
 
@@ -28,7 +32,10 @@
 
 ### Links
 
-
+| Syntax      | Description |
+| :-----------: | :-----------: |
+| `<a> </a>` | Anchor Tag |
+| `<a href="URL"> </a>` | Create a hyperlink to a URL, either a URL oninternet or another HTML page |
 
 ### Formatting
 
@@ -36,17 +43,23 @@
 | Syntax      | Description |
 | :-----------: | :-----------: |
 | `<p> </p>` | Paragraph | 
-| `<br> </br>` | Line Break |
+| `<br>` | Line Break |
 
 
 ### Lists
 
+| Syntax      | Description |
+| :-----------: | :-----------: |
+| `<ul> </ul>` | Unordered List(ul) |
+| `<li> </li>` | Encompasses each List Item(li) |
+| `<ol start=? type=?> </ol>` | Ordered list(ol) with type and start number |
 
 ### Graphical Elements
 
 | Syntax      | Description |
 | :-----------: | :-----------: |
 | `<hr> </hr>` | Horizontal Rulr | 
+| `<img src=? alt=?> | Image `alt`: Alternate Text  |
 
 ### Forms
 
