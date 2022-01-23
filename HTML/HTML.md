@@ -35,7 +35,7 @@
 | Syntax      | Description |
 | :-----------: | :-----------: |
 | `<a> </a>` | Anchor Tag |
-| `<a href="URL"> </a>` | Create a hyperlink to a URL, either a URL oninternet or another HTML page |
+| `<a href="URL"> </a>` | Create a hyperlink to a URL, either a URL on internet or another HTML page |
 
 ### Formatting
 
@@ -59,13 +59,47 @@
 | Syntax      | Description |
 | :-----------: | :-----------: |
 | `<hr> </hr>` | Horizontal Rulr | 
-| `<img src=? alt=?> | Image `alt`: Alternate Text  |
+| `<img src=? alt=?>` | Image `alt`: Alternate Text  |
 
 ### Forms
 
 
 ### Tables
 
+| Syntax      | Description |
+| :-----------: | :-----------: |
+| `<table> </table>` | Table |
+| `<tr> </tr>` | Table Row to be used in `Head`, 'Body|
+| `<td> </td>` | Table cell to be used in `Table row` |
+| `<thead> </thead>` | Table Header |
+| `<tbody> </tbody>` | Table Body |
+| `<tfoot> </tfoot>` | Table Footer |
+| `<th> </th>` | Table cell to be used in `Table Header` |
+
+### A Typical Table in HTML
+
+```HTML
+<table>
+    <thead>
+      <tr>
+        <th>Heading1</th>
+        <th>Heading2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(1,1)</td>
+        <td>(1,2)</td>
+      </tr>
+      <tr>
+        <td>(2,1)</td>
+        <td>(2,2)</td>
+      </tr>
+    </tbody>
+  </table>
+```
+
+* `<thead>`, `<tbody>`, `<tfoot>` are optional but recommeded to use since later we can style them seperately
 
 
 ## The Anatomy of HTML
