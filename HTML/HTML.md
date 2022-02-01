@@ -64,6 +64,28 @@
 ### Forms
 
 
+| Syntax      | Description |
+| :-----------: | :-----------: |
+| `<form action=?> </form>` | Form 
+`action` defines what happens when submit is clicked|
+| `<label> </label>` | Label of the field |
+| `<input type=? name=?>` | Input with `type` and `name` |
+| `<input type="text">` | A Text input box |
+| `<input type="checkbox">` | A Chcekbox input box |
+| `<input type="submit">` | A Submit Button |
+| `<input type="colour">` | A Colour Picker |
+| `<textarea rows=? cols=?> </textarea>` | A text area for writing stuff |
+
+* There are a lot of types of input types explore [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+* `<input type=?>` is a self closing tag
+
+```HTML
+<form>
+  <label>Name</label>
+  <input type="text">
+</form>
+```
 ### Tables
 
 | Syntax      | Description |
@@ -98,6 +120,26 @@
     </tbody>
   </table>
 ```
+This is how it renders to : 
+
+<table>
+    <thead>
+      <tr>
+        <th>Heading1</th>
+        <th>Heading2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(1,1)</td>
+        <td>(1,2)</td>
+      </tr>
+      <tr>
+        <td>(2,1)</td>
+        <td>(2,2)</td>
+      </tr>
+    </tbody>
+  </table>
 
 * `<thead>`, `<tbody>`, `<tfoot>` are optional but recommeded to use since later we can style them seperately
 
