@@ -208,6 +208,5 @@ This is how it renders to :
 
 * Use proper indenting or use a package like `Atom Beautify` to make code look better
 
-* 
 
 

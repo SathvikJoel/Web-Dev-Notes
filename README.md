@@ -17,4 +17,4 @@ The three Basic Code files to render any website are :
 
 2. [Stanford HTML Cheat Sheet](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
 
-
+3. [colourhunt.co](colourhunt.co) - Helps with colour hunting
