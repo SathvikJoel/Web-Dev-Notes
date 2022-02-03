@@ -18,3 +18,5 @@ The three Basic Code files to render any website are :
 2. [Stanford HTML Cheat Sheet](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
 
 3. [colourhunt.co](colourhunt.co) - Helps with colour hunting
+
+4. Use chrome develper tools to see the DOM and experiment with the CSS before you can make the actual changes, its very useful

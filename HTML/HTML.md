@@ -208,5 +208,14 @@ This is how it renders to :
 
 * Use proper indenting or use a package like `Atom Beautify` to make code look better
 
+## HTML Divs and spans
+
+* `div` stands for content divider
+
+* Divs unkike other html elements dont do much unless they are paired with css
+
+* The `div` is there is only there to structure and position the html code
+
+* `span` is an inline element, just like `div` span cant do much unless they are paired with css
 
 
