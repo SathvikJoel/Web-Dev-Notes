@@ -247,4 +247,20 @@ div{
     left: 20px;
 }
 
+```
+
+3. **absolute** : This is placing the element in absolutely any posotion relative to its parent element. The element will be removed from the flow of the document
+
+* The coordinates are still valid for absolute positioning
+
+* It will be relative to the immediate parent whose position is set to relative, else it will be relative to the body
+
+1. **fixed** : The position is fixed to the position as the user scolls the page.
+
+## Centering tips:
+
+If the parent element has `text-align` set to center then all the children, whose width is not set will be centered.
+
+For the elements with width set, use the `margin` property to change the position of the element, use the circle notation for convinence.
+
 
